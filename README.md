@@ -1,9 +1,10 @@
 # Secure Chat Application
 ## Overview
-This project implements a secure chat application in Python, ensuring encrypted communication between clients and a server using RSA for key exchange and AES for message encryption.
+This project implements a secure chat application in Python, ensuring encrypted communication between clients and a server using RSA for key generation, Diffie-Hellman for key exchange and AES for message encryption.
 
 ## Features
-- RSA(Rivest-Shamir-Adleman) for key exchange
+- RSA(Rivest-Shamir-Adleman) for key generation.
+- Diffie-Hellman key exchange to derive a shared key.
 - AES(Advanced Encryption Standard) for message encryption
 - Multi-threaded server for handling concurrent client connections
 - JSON-formatted logging for tracking events
