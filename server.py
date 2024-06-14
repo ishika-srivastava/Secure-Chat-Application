@@ -42,6 +42,7 @@ def handle_client(client_socket):
         server_public_key_pem = server_public_key.public_bytes(encoding=serialization.Encoding.PEM, format=serialization.PublicFormat.SubjectPublicKeyInfo)
         client_socket.sendall(server_public_key_pem)
         
+        # Diffie-Hellman key exchange
         shared_key = HKDF(algorithm=hashes.SHA256(), length=32, salt=secrets.token_bytes(32), info=b'handshake data').derive(os.urandom(32))
         
         encrypted_shared_key = client_public_key.encrypt(
