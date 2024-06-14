@@ -21,7 +21,7 @@ This project implements a secure chat application in Python, ensuring encrypted 
 
 ```
 $ git clone https://github.com/ishika-srivastava/Secure-Chat-Application.git
-$ cd secure-chat-application
+$ cd Secure-Chat-Application
 ```
 
 ### Install dependencies:
