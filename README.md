@@ -30,7 +30,7 @@ $ cd Secure-Chat-Application
 $ pip install -r requirements.txt 
 ```
 
-Run the server:
+### Run the server:
 ```
 $ python server.py
 ```
