@@ -1,0 +1,4 @@
+2024-06-14 23:22:56,248 INFO {"timestamp": "2024-06-14 23:22:56.248965", "event": "Client connected", "client_address": ["127.0.0.1", 56645]}
+2024-06-14 23:23:14,990 INFO {"timestamp": "2024-06-14 23:23:14.990883", "event": "Message received", "client_address": ["127.0.0.1", 56645], "message": "hello welcome to the Secure Chat Application"}
+2024-06-14 23:23:32,478 INFO {"timestamp": "2024-06-14 23:23:32.478348", "event": "Message received", "client_address": ["127.0.0.1", 56645], "message": "Alice says Hi"}
+2024-06-14 23:23:45,358 INFO {"timestamp": "2024-06-14 23:23:45.358349", "event": "Message received", "client_address": ["127.0.0.1", 56645], "message": "Server are you listening?"}
