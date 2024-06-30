@@ -1,7 +1,7 @@
-socket
-threading
-json
-cryptography
-os
-secrets
-datetime
+socket == 3.12.4
+threading == 3.12.4
+json == 3.12.4
+cryptography == 42.0.8
+os == 3.12.4
+secrets == 23.4.2
+datetime == 4.2.1
